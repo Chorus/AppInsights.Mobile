@@ -10,7 +10,8 @@
     <AssemblyOriginatorKeyFile>key.snk</AssemblyOriginatorKeyFile>    
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <PackageTags>Azure Monitoring Analytics ApplicationInsights Telemetry AppInsights</PackageTags>
-    <PackageProjectUrl>https://github.com/novotnyllc/AppInsights.WindowsDesktop</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/Chorus/AppInsights.Mobile</PackageProjectUrl>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(TargetFramework)' == 'netcoreapp3.1' or '$(TargetFramework)' == 'net461' or $(TargetFramework.Contains('-windows'))">
